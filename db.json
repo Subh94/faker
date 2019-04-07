@@ -10,5 +10,33 @@
   ],
   "profile": {
     "name": "typicode"
-  }
+  },
+  "application": [
+    {
+      "name": "Admission",
+      "id": "com.school.basic.admission",
+      "description": "Admission plugin for managing school admission procedure",
+      "doc_link": "https://doc.learn.com/en/school/basic/admission",
+      "module": [
+        {
+          "name": "Apply",
+          "uri": "/school/admission/apply",
+          "module_id": "apply",
+          "allowed_method": ["GET", "POST"]
+        },
+        {
+          "name": "All",
+          "uri": "/school/admission/all",
+          "module_id": "all",
+          "allowed_method": ["GET"]
+        },
+        {
+          "name": "Dashboard",
+          "uri": "/school/admission/dashboard",
+          "module_id": "dashboard",
+          "allowed_method": ["GET"]
+        }
+      ]
+    }
+  ]
 }
