@@ -38,5 +38,25 @@
         }
       ]
     }
+  ],
+  "notification": [
+    {
+      "notification_id": 1,
+      "triggered_by": "Teacher 1",
+      "notify": "user",
+      "notification": "Class X Test 1 result are out, please check",
+      "notification_uri": "/notification/user/1/action?from=web",
+      "datetime_added": "2/04/2019",
+      "datetime_read": ""
+    },
+    {
+      "notification_id": 2,
+      "triggered_by": "Teacher 2",
+      "notify": "user",
+      "notification": "Your attaindance is sort",
+      "notification_uri": "/notification/user/2/action?from=web",
+      "datetime_added": "2/04/2010",
+      "datetime_read": ""
+    }
   ]
 }
